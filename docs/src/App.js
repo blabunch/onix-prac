@@ -28,40 +28,27 @@ function App() {
         </div>
       </header>
 
-      {/* ABOUT SECTION (Project Description) */}
+      {/* ABOUT SECTION */}
       <section id="about" className="section about-section">
         <div className="container about-container">
-          
-          {/* Лівий текстовий блок */}
+
           <div className="about-text-left">
             <h2>
               WE ARE <br/>
-              {/* "THE SQWD" тепер буде Open Sans, як ти просив */}
               <span className="subtitle-text">THE SQWD</span>
             </h2>
-            {/* Риска перед текстом */}
             <div className="separator-line-left"></div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-
-          {/* Блок з візуальними шарами (картинки та зелений блок) */}
           <div className="about-visuals-layered">
-            {/* Шар 1 (нижній): Велика фонова картинка (заглушка) */}
             <div className="layer bg-img-main"></div>
-            
-            {/* Шар 2 (середній): Зелений напівпрозорий блок */}
             <div className="layer green-overlay-box"></div>
-            
-            {/* Шар 3 (верхній): Менша картинка спереду (заглушка) */}
             <div className="layer bg-img-front"></div>
           </div>
-
-          {/* Правий текстовий блок */}
           <div className="about-text-right">
-            {/* Риска перед текстом */}
             <div className="separator-line-right"></div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -75,20 +62,16 @@ function App() {
       {/* SERVICES SECTION */}
       <section id="services" className="section services-section">
         <div className="container">
-          
-          {/* Заголовок секції */}
           <div className="services-header">
             <h2>Our Services</h2>
             <div className="separator-header"></div>
           </div>
           
           <div className="services-grid">
-            {/* Card 1 */}
             <div className="service-card">
               <div className="card-top">
                 <h3>BRANDING</h3>
                 <div className="service-icon">
-                   {/* Тут буде іконка, поки пустий кружечок */}
                    <span className="icon-placeholder">📊</span> 
                 </div>
               </div>
@@ -99,8 +82,6 @@ function App() {
               </p>
               <a href="#" className="service-read-more">READ MORE</a>
             </div>
-
-            {/* Card 2 (Active - з зеленою лінією) */}
             <div className="service-card active-card">
               <div className="card-top">
                 <h3>DESIGN</h3>
@@ -115,8 +96,6 @@ function App() {
               </p>
               <a href="#" className="service-read-more">READ MORE</a>
             </div>
-
-            {/* Card 3 */}
             <div className="service-card">
               <div className="card-top">
                 <h3>DEVELOPMENT</h3>
@@ -153,8 +132,6 @@ function App() {
           </div>
 
           <div className="works-list">
-            
-            {/* WORK 1: Image RIGHT, Text LEFT */}
             <div className="work-item align-right">
               <div className="work-img-wrapper">
                  <div className="work-img" style={{backgroundImage: "url('./img/cam.png')"}}></div>
@@ -174,8 +151,6 @@ function App() {
               </div>
             </div>
 
-
-            {/* WORK 2: Image LEFT, Text RIGHT */}
             <div className="work-item align-left">
               <div className="work-img-wrapper">
                  <div className="work-img" style={{backgroundImage: "url('./img/cat.png')"}}></div>
@@ -195,8 +170,6 @@ function App() {
               </div>
             </div>
 
-
-            {/* WORK 3: Image RIGHT, Text LEFT */}
             <div className="work-item align-right">
                <div className="work-img-wrapper">
                  <div className="work-img" style={{backgroundImage: "url('./img/imac.png')"}}></div>
@@ -216,8 +189,6 @@ function App() {
               </div>
             </div>
 
-
-             {/* WORK 4: Image LEFT, Text RIGHT */}
              <div className="work-item align-left">
                <div className="work-img-wrapper">
                  <div className="work-img" style={{backgroundImage: "url('./img/macbook.png')"}}></div>
@@ -347,7 +318,7 @@ function App() {
         </div>
       </section>
 
-      {/* FOOTER (REQUIRED INFO) */}
+      {/* FOOTER */}
       <footer className="footer">
         <div className="container">
           <div className="student-info">

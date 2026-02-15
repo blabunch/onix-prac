@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/onix-prac/static/css/main.89b2e748.css",
+    "main.js": "/onix-prac/static/js/main.0f46ab4c.js",
+    "static/media/Image.png": "/onix-prac/static/media/Image.cb00e471534db54ce84d.png",
+    "static/media/Image 1.png": "/onix-prac/static/media/Image 1.7e0e2073d8a3f52c2416.png",
+    "static/media/Image 2.png": "/onix-prac/static/media/Image 2.02fa4866986797da627b.png",
+    "index.html": "/onix-prac/index.html",
+    "main.89b2e748.css.map": "/onix-prac/static/css/main.89b2e748.css.map",
+    "main.0f46ab4c.js.map": "/onix-prac/static/js/main.0f46ab4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89b2e748.css",
+    "static/js/main.0f46ab4c.js"
+  ]
+}
